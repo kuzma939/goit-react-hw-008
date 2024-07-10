@@ -56,7 +56,6 @@ export const Info = styled.p`
   color: rgba(255, 255, 255, 1);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 `;
-
 export const InfoLink = styled.a`
   position: relative;
 
