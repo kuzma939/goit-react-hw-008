@@ -1,20 +1,18 @@
 import styled from '@emotion/styled';
 import { keyframes } from '@emotion/react';
-
 const bubblingAnimate = keyframes`
-   0%{
+    0% {
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
-
-    100%{
+    100% {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
-        border-radius: 50%;
+        border-radius: 0;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     }
 `;
-
 export const Area = styled.div`
   position: absolute;
   top: 0;
